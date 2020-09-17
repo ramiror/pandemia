@@ -1,0 +1,888 @@
+{
+  "id": "7a2a0d93-636e-4e20-be01-32906875f3c6",
+  "version": "2.0",
+  "name": "circular",
+  "url": "https://www.argentina.gob.ar",
+  "tests": [{
+    "id": "ccaa8ac9-0473-44d3-9236-c0deed7942d9",
+    "name": "turno-medico",
+    "commands": [{
+      "id": "55e30b38-6d87-41b1-9e6a-de6149c960ab",
+      "comment": "",
+      "command": "open",
+      "target": "/circular",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e03f1790-8de8-4f85-81e3-af981beb4fcf",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "958x965",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ffbd093b-7ebd-4bde-9c99-d0c2d18a1bbf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.panel-heading > .icono-arg-firma-digital-remota",
+      "targets": [
+        ["css=.panel-heading > .icono-arg-firma-digital-remota", "css:finder"],
+        ["xpath=//div[@id='block-system-main']/section/article/div/div[3]/div/div/div/a/div/i", "xpath:idRelative"],
+        ["xpath=//a/div/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f1489318-eed6-4f0f-90d7-24e5fe70144c",
+      "comment": "",
+      "command": "click",
+      "target": "id=edit-submitted-dni-tenes-1",
+      "targets": [
+        ["id=edit-submitted-dni-tenes-1", "id"],
+        ["name=submitted[dni_tenes]", "name"],
+        ["css=#edit-submitted-dni-tenes-1", "css:finder"],
+        ["xpath=//input[@id='edit-submitted-dni-tenes-1']", "xpath:attributes"],
+        ["xpath=//div[@id='edit-submitted-dni-tenes']/div/label/input", "xpath:idRelative"],
+        ["xpath=//label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a362f404-856f-4604-9d18-625cf058bc55",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Continuá",
+      "targets": [
+        ["linkText=Continuá", "linkText"],
+        ["css=.webform-component--dni-si .btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Continuá')]", "xpath:link"],
+        ["xpath=//form[@id='webform-client-form-195611']/div/div[3]/p/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/circular/dni#provincia')]", "xpath:href"],
+        ["xpath=//p/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Continuá')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d8def889-b141-4a7b-a264-7a2747187cfd",
+      "comment": "",
+      "command": "click",
+      "target": "id=edit-submitted-provincia",
+      "targets": [
+        ["id=edit-submitted-provincia", "id"],
+        ["name=submitted[provincia]", "name"],
+        ["css=#edit-submitted-provincia", "css:finder"],
+        ["xpath=//select[@id='edit-submitted-provincia']", "xpath:attributes"],
+        ["xpath=//form[@id='webform-client-form-194833']/div/div[2]/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "22840da0-9fad-4265-8936-72b3bcce9f67",
+      "comment": "",
+      "command": "select",
+      "target": "id=edit-submitted-provincia",
+      "targets": [],
+      "value": "label=Buenos Aires (municipios del AMBA)"
+    }, {
+      "id": "ab0fd8e2-d5be-487d-b8ef-6f863efea8ce",
+      "comment": "",
+      "command": "click",
+      "target": "id=edit-submitted-provincia",
+      "targets": [
+        ["id=edit-submitted-provincia", "id"],
+        ["name=submitted[provincia]", "name"],
+        ["css=#edit-submitted-provincia", "css:finder"],
+        ["xpath=//select[@id='edit-submitted-provincia']", "xpath:attributes"],
+        ["xpath=//form[@id='webform-client-form-194833']/div/div[2]/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "01b125f0-6fe6-4723-9d78-d9e37dcbbf2a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Continuá",
+      "targets": [
+        ["linkText=Continuá", "linkText"],
+        ["css=.webform-component--buenosaires-amba .btn", "css:finder"],
+        ["xpath=(//a[contains(text(),'Continuá')])[2]", "xpath:link"],
+        ["xpath=//form[@id='webform-client-form-194833']/div/div[4]/p/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/circular/buenosaires-amba#provincia')]", "xpath:href"],
+        ["xpath=//div[4]/p/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9be70ce5-53a7-4c85-86c4-2c0f235adb8d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-item-submitted-trabajo-fuerzamayor:nth-child(2) > .control-label",
+      "targets": [
+        ["css=.form-item-submitted-trabajo-fuerzamayor:nth-child(2) > .control-label", "css:finder"],
+        ["xpath=//div[@id='edit-submitted-trabajo-fuerzamayor']/div[2]/label", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Permisos especiales (trámites, tratamiento prolongado, traslado de hijos o hijas, asistencia a familiar)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e2eee098-cafe-4770-a9c3-9483dca87aa0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-item-submitted-elegi-el-motivo-del-permiso-especial:nth-child(1) > .control-label",
+      "targets": [
+        ["css=.form-item-submitted-elegi-el-motivo-del-permiso-especial:nth-child(1) > .control-label", "css:finder"],
+        ["xpath=//div[@id='edit-submitted-elegi-el-motivo-del-permiso-especial']/div/label", "xpath:idRelative"],
+        ["xpath=//div[10]/div/div/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Por emergencias, situaciones imprevistas o urgencias; para asistir a turnos médicos, hacer trámites impostergables o mudarse (24 horas)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c1fb3ecd-8ff8-4d00-b9f6-dede37b5ef96",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Completá el formulario",
+      "targets": [
+        ["linkText=Completá el formulario", "linkText"],
+        ["css=.webform-component--cuarentayocho-horas .btn", "css:finder"],
+        ["xpath=(//a[contains(text(),'Completá el formulario')])[7]", "xpath:link"],
+        ["xpath=//form[@id='webform-client-form-203173']/div/div[11]/p/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://formulario-ddjj.argentina.gob.ar/certificado/gba/categoria/7')]", "xpath:href"],
+        ["xpath=//div[11]/p/a", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win2065",
+      "windowTimeout": 2000
+    }, {
+      "id": "7cef385e-2be9-4d61-920d-962c95709107",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win2065}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "feee5928-36ce-45ff-a34b-5b5712af37dc",
+      "comment": "",
+      "command": "click",
+      "target": "id=nombre",
+      "targets": [
+        ["id=nombre", "id"],
+        ["name=nombre", "name"],
+        ["css=#nombre", "css:finder"],
+        ["xpath=//input[@id='nombre']", "xpath:attributes"],
+        ["xpath=//form[@id='form-cuhc']/div[8]/input", "xpath:idRelative"],
+        ["xpath=//div[8]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0196d2e0-7a13-4f8c-93cc-2f4819c23048",
+      "comment": "",
+      "command": "type",
+      "target": "id=nombre",
+      "targets": [
+        ["id=nombre", "id"],
+        ["name=nombre", "name"],
+        ["css=#nombre", "css:finder"],
+        ["xpath=//input[@id='nombre']", "xpath:attributes"],
+        ["xpath=//form[@id='form-cuhc']/div[8]/input", "xpath:idRelative"],
+        ["xpath=//div[8]/input", "xpath:position"]
+      ],
+      "value": "Fulano"
+    }, {
+      "id": "c2b84b33-c737-418b-b60e-de4fb10829b3",
+      "comment": "",
+      "command": "type",
+      "target": "id=apellido",
+      "targets": [
+        ["id=apellido", "id"],
+        ["name=apellido", "name"],
+        ["css=#apellido", "css:finder"],
+        ["xpath=//input[@id='apellido']", "xpath:attributes"],
+        ["xpath=//form[@id='form-cuhc']/div[9]/input", "xpath:idRelative"],
+        ["xpath=//div[9]/input", "xpath:position"]
+      ],
+      "value": "De Tal"
+    }, {
+      "id": "47a20bcd-d454-4274-8114-389d6f75b4f3",
+      "comment": "",
+      "command": "type",
+      "target": "id=dni",
+      "targets": [
+        ["id=dni", "id"],
+        ["name=dni", "name"],
+        ["css=#dni", "css:finder"],
+        ["xpath=//input[@id='dni']", "xpath:attributes"],
+        ["xpath=//form[@id='form-cuhc']/div[10]/div/input", "xpath:idRelative"],
+        ["xpath=//div[10]/div/input", "xpath:position"]
+      ],
+      "value": "123"
+    }, {
+      "id": "10dd5da1-fd94-4763-b455-460d3c2c8c1d",
+      "comment": "",
+      "command": "type",
+      "target": "id=dni_confirm",
+      "targets": [
+        ["id=dni_confirm", "id"],
+        ["name=dni_confirm", "name"],
+        ["css=#dni_confirm", "css:finder"],
+        ["xpath=//input[@id='dni_confirm']", "xpath:attributes"],
+        ["xpath=//form[@id='form-cuhc']/div[10]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "123"
+    }, {
+      "id": "b0d15241-7ced-4ed6-823d-9b59a3cd6d56",
+      "comment": "",
+      "command": "type",
+      "target": "id=nro_tramite",
+      "targets": [
+        ["id=nro_tramite", "id"],
+        ["name=nro_tramite", "name"],
+        ["css=#nro_tramite", "css:finder"],
+        ["xpath=//input[@id='nro_tramite']", "xpath:attributes"],
+        ["xpath=//form[@id='form-cuhc']/div[11]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[11]/div/div/input", "xpath:position"]
+      ],
+      "value": "123"
+    }, {
+      "id": "f4f1d41d-d128-4084-bad3-09c7d6753156",
+      "comment": "",
+      "command": "click",
+      "target": "id=nro_tramite_confirm",
+      "targets": [
+        ["id=nro_tramite_confirm", "id"],
+        ["name=nro_tramite_confirm", "name"],
+        ["css=#nro_tramite_confirm", "css:finder"],
+        ["xpath=//input[@id='nro_tramite_confirm']", "xpath:attributes"],
+        ["xpath=//form[@id='form-cuhc']/div[11]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[11]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "53ebb1aa-f542-45e5-8cab-7f09225bd633",
+      "comment": "",
+      "command": "type",
+      "target": "id=nro_tramite_confirm",
+      "targets": [
+        ["id=nro_tramite_confirm", "id"],
+        ["name=nro_tramite_confirm", "name"],
+        ["css=#nro_tramite_confirm", "css:finder"],
+        ["xpath=//input[@id='nro_tramite_confirm']", "xpath:attributes"],
+        ["xpath=//form[@id='form-cuhc']/div[11]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[11]/div[2]/input", "xpath:position"]
+      ],
+      "value": "123"
+    }, {
+      "id": "77ae6371-25a2-40a0-a8bf-50005c1e2a16",
+      "comment": "",
+      "command": "click",
+      "target": "id=genero",
+      "targets": [
+        ["id=genero", "id"],
+        ["name=genero", "name"],
+        ["css=#genero", "css:finder"],
+        ["xpath=//select[@id='genero']", "xpath:attributes"],
+        ["xpath=//form[@id='form-cuhc']/div[12]/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8574d94b-7087-492d-a9e8-49242480399e",
+      "comment": "",
+      "command": "select",
+      "target": "id=genero",
+      "targets": [],
+      "value": "label=(M) Masculino"
+    }, {
+      "id": "0a9372a2-934d-4798-8387-97817012b6c0",
+      "comment": "",
+      "command": "click",
+      "target": "id=genero",
+      "targets": [
+        ["id=genero", "id"],
+        ["name=genero", "name"],
+        ["css=#genero", "css:finder"],
+        ["xpath=//select[@id='genero']", "xpath:attributes"],
+        ["xpath=//form[@id='form-cuhc']/div[12]/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "97ed13e0-547b-49bc-ab68-3e617b0913c4",
+      "comment": "",
+      "command": "click",
+      "target": "id=cuil",
+      "targets": [
+        ["id=cuil", "id"],
+        ["name=cuil", "name"],
+        ["css=#cuil", "css:finder"],
+        ["xpath=//input[@id='cuil']", "xpath:attributes"],
+        ["xpath=//form[@id='form-cuhc']/div[13]/input", "xpath:idRelative"],
+        ["xpath=//div[13]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "77d4386a-872f-479a-b4e4-af476c70794b",
+      "comment": "",
+      "command": "type",
+      "target": "id=cuil",
+      "targets": [
+        ["id=cuil", "id"],
+        ["name=cuil", "name"],
+        ["css=#cuil", "css:finder"],
+        ["xpath=//input[@id='cuil']", "xpath:attributes"],
+        ["xpath=//form[@id='form-cuhc']/div[13]/input", "xpath:idRelative"],
+        ["xpath=//div[13]/input", "xpath:position"]
+      ],
+      "value": "123"
+    }, {
+      "id": "0ca056a6-9b93-4707-b732-e98763fc1c74",
+      "comment": "",
+      "command": "click",
+      "target": "id=cel_cod_area",
+      "targets": [
+        ["id=cel_cod_area", "id"],
+        ["name=cel_cod_area", "name"],
+        ["css=#cel_cod_area", "css:finder"],
+        ["xpath=//input[@id='cel_cod_area']", "xpath:attributes"],
+        ["xpath=//form[@id='form-cuhc']/div[17]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[17]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "40d15ad2-b2c4-46f8-9157-66f9e7c8e6fd",
+      "comment": "",
+      "command": "type",
+      "target": "id=cel_cod_area",
+      "targets": [
+        ["id=cel_cod_area", "id"],
+        ["name=cel_cod_area", "name"],
+        ["css=#cel_cod_area", "css:finder"],
+        ["xpath=//input[@id='cel_cod_area']", "xpath:attributes"],
+        ["xpath=//form[@id='form-cuhc']/div[17]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[17]/div/div/input", "xpath:position"]
+      ],
+      "value": "11"
+    }, {
+      "id": "44bd2397-eba1-4fff-84f4-bbd7ec531cab",
+      "comment": "",
+      "command": "click",
+      "target": "id=cel_numero",
+      "targets": [
+        ["id=cel_numero", "id"],
+        ["name=cel_numero", "name"],
+        ["css=#cel_numero", "css:finder"],
+        ["xpath=//input[@id='cel_numero']", "xpath:attributes"],
+        ["xpath=//form[@id='form-cuhc']/div[17]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2e12a3a7-c410-405d-8831-dae690bfaba6",
+      "comment": "",
+      "command": "type",
+      "target": "id=cel_numero",
+      "targets": [
+        ["id=cel_numero", "id"],
+        ["name=cel_numero", "name"],
+        ["css=#cel_numero", "css:finder"],
+        ["xpath=//input[@id='cel_numero']", "xpath:attributes"],
+        ["xpath=//form[@id='form-cuhc']/div[17]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "55555555"
+    }, {
+      "id": "bc8f06f8-7874-4e0f-98f0-8580eb17cc93",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//form[@id='form-cuhc']/div[18]/div/input", "xpath:idRelative"],
+        ["xpath=//div[18]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9d2c290f-79c3-445c-bb33-c41ccd2942af",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//form[@id='form-cuhc']/div[18]/div/input", "xpath:idRelative"],
+        ["xpath=//div[18]/div/input", "xpath:position"]
+      ],
+      "value": "fulano@gmail.com"
+    }, {
+      "id": "c5d6d689-eadb-4ccb-80f1-2963963753ca",
+      "comment": "",
+      "command": "type",
+      "target": "id=email_confirm",
+      "targets": [
+        ["id=email_confirm", "id"],
+        ["name=email_confirm", "name"],
+        ["css=#email_confirm", "css:finder"],
+        ["xpath=//input[@id='email_confirm']", "xpath:attributes"],
+        ["xpath=//form[@id='form-cuhc']/div[18]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[18]/div[2]/input", "xpath:position"]
+      ],
+      "value": "fulano@gmail.com"
+    }, {
+      "id": "c304afc9-ac09-460a-b6c6-79d4088d4976",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1877)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fe3a2af0-819b-4895-bf1b-613258f7df1e",
+      "comment": "",
+      "command": "type",
+      "target": "id=domicilio_domicilio",
+      "targets": [
+        ["id=domicilio_domicilio", "id"],
+        ["name=domicilio[domicilio]", "name"],
+        ["css=#domicilio_domicilio", "css:finder"],
+        ["xpath=//input[@id='domicilio_domicilio']", "xpath:attributes"],
+        ["xpath=//form[@id='form-cuhc']/div[19]/div/input", "xpath:idRelative"],
+        ["xpath=//div[19]/div/input", "xpath:position"]
+      ],
+      "value": "Cucha Cucha"
+    }, {
+      "id": "33095dc4-4e04-41b2-a199-b2882ecd781b",
+      "comment": "",
+      "command": "type",
+      "target": "id=domicilio_cod_postal",
+      "targets": [
+        ["id=domicilio_cod_postal", "id"],
+        ["name=domicilio[cod_postal]", "name"],
+        ["css=#domicilio_cod_postal", "css:finder"],
+        ["xpath=//input[@id='domicilio_cod_postal']", "xpath:attributes"],
+        ["xpath=//form[@id='form-cuhc']/div[19]/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "1000"
+    }, {
+      "id": "cfa378c7-0b40-4622-8381-369b215e3617",
+      "comment": "",
+      "command": "click",
+      "target": "id=domicilio_provincia_iso",
+      "targets": [
+        ["id=domicilio_provincia_iso", "id"],
+        ["name=domicilio[provincia_iso]", "name"],
+        ["css=#domicilio_provincia_iso", "css:finder"],
+        ["xpath=//select[@id='domicilio_provincia_iso']", "xpath:attributes"],
+        ["xpath=//form[@id='form-cuhc']/div[19]/div[4]/select", "xpath:idRelative"],
+        ["xpath=//div[4]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "59d7c9f9-6dfa-4a38-a9fa-f996cab33fb2",
+      "comment": "",
+      "command": "select",
+      "target": "id=domicilio_provincia_iso",
+      "targets": [],
+      "value": "label=Gran Buenos Aires"
+    }, {
+      "id": "decd25f4-ccaa-4e0d-97ff-87f220efb180",
+      "comment": "",
+      "command": "click",
+      "target": "id=domicilio_provincia_iso",
+      "targets": [
+        ["id=domicilio_provincia_iso", "id"],
+        ["name=domicilio[provincia_iso]", "name"],
+        ["css=#domicilio_provincia_iso", "css:finder"],
+        ["xpath=//select[@id='domicilio_provincia_iso']", "xpath:attributes"],
+        ["xpath=//form[@id='form-cuhc']/div[19]/div[4]/select", "xpath:idRelative"],
+        ["xpath=//div[4]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "805224f3-3b52-4c87-b901-cf13b6d9e875",
+      "comment": "",
+      "command": "click",
+      "target": "id=domicilio_localidad",
+      "targets": [
+        ["id=domicilio_localidad", "id"],
+        ["name=domicilio[localidad]", "name"],
+        ["css=#domicilio_localidad", "css:finder"],
+        ["xpath=//input[@id='domicilio_localidad']", "xpath:attributes"],
+        ["xpath=//form[@id='form-cuhc']/div[19]/div[5]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3343abbd-45c6-4e3f-b3a1-ff6f1d2ca84d",
+      "comment": "",
+      "command": "type",
+      "target": "id=domicilio_localidad",
+      "targets": [
+        ["id=domicilio_localidad", "id"],
+        ["name=domicilio[localidad]", "name"],
+        ["css=#domicilio_localidad", "css:finder"],
+        ["xpath=//input[@id='domicilio_localidad']", "xpath:attributes"],
+        ["xpath=//form[@id='form-cuhc']/div[19]/div[5]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": "mi lindo barrio"
+    }, {
+      "id": "f2bf844d-7520-4f9e-9792-f044ae99e630",
+      "comment": "",
+      "command": "click",
+      "target": "css=.custom-control:nth-child(3) > .custom-control-label",
+      "targets": [
+        ["css=.custom-control:nth-child(3) > .custom-control-label", "css:finder"],
+        ["xpath=//form[@id='form-cuhc']/div[23]/div[2]/label", "xpath:idRelative"],
+        ["xpath=//div[23]/div[2]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Vehículo y/o Moto')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "55babfaa-defe-4c63-8b72-49b1684c7183",
+      "comment": "",
+      "command": "click",
+      "target": "id=patente_vehiculo1",
+      "targets": [
+        ["id=patente_vehiculo1", "id"],
+        ["name=patente_vehiculo1", "name"],
+        ["css=#patente_vehiculo1", "css:finder"],
+        ["xpath=//input[@id='patente_vehiculo1']", "xpath:attributes"],
+        ["xpath=//form[@id='form-cuhc']/div[24]/input", "xpath:idRelative"],
+        ["xpath=//div[24]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "65e7ee51-db94-4347-b502-816a5ec5b9b4",
+      "comment": "",
+      "command": "type",
+      "target": "id=patente_vehiculo1",
+      "targets": [
+        ["id=patente_vehiculo1", "id"],
+        ["name=patente_vehiculo1", "name"],
+        ["css=#patente_vehiculo1", "css:finder"],
+        ["xpath=//input[@id='patente_vehiculo1']", "xpath:attributes"],
+        ["xpath=//form[@id='form-cuhc']/div[24]/input", "xpath:idRelative"],
+        ["xpath=//div[24]/input", "xpath:position"]
+      ],
+      "value": "PAT 123"
+    }, {
+      "id": "3da308bb-8d3b-4ad5-ac33-1392fd1f50c0",
+      "comment": "",
+      "command": "click",
+      "target": "id=emergencia_motivo",
+      "targets": [
+        ["id=emergencia_motivo", "id"],
+        ["name=emergencia_motivo", "name"],
+        ["css=#emergencia_motivo", "css:finder"],
+        ["xpath=//select[@id='emergencia_motivo']", "xpath:attributes"],
+        ["xpath=//form[@id='form-cuhc']/div[31]/select", "xpath:idRelative"],
+        ["xpath=//div[31]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ac7f9173-f80d-451f-b4d4-8b2c2659a7cd",
+      "comment": "",
+      "command": "select",
+      "target": "id=emergencia_motivo",
+      "targets": [],
+      "value": "label=Turno medico"
+    }, {
+      "id": "935cf904-6412-4445-92d7-1f522de7ab25",
+      "comment": "",
+      "command": "click",
+      "target": "id=emergencia_motivo",
+      "targets": [
+        ["id=emergencia_motivo", "id"],
+        ["name=emergencia_motivo", "name"],
+        ["css=#emergencia_motivo", "css:finder"],
+        ["xpath=//select[@id='emergencia_motivo']", "xpath:attributes"],
+        ["xpath=//form[@id='form-cuhc']/div[31]/select", "xpath:idRelative"],
+        ["xpath=//div[31]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f01fc295-a55c-45d2-b6f2-d7dc99e88dde",
+      "comment": "",
+      "command": "click",
+      "target": "id=observaciones",
+      "targets": [
+        ["id=observaciones", "id"],
+        ["name=observaciones", "name"],
+        ["css=#observaciones", "css:finder"],
+        ["xpath=//textarea[@id='observaciones']", "xpath:attributes"],
+        ["xpath=//form[@id='form-cuhc']/div[32]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4d523cce-6c18-4c33-84f1-91461e3a8419",
+      "comment": "",
+      "command": "type",
+      "target": "id=observaciones",
+      "targets": [
+        ["id=observaciones", "id"],
+        ["name=observaciones", "name"],
+        ["css=#observaciones", "css:finder"],
+        ["xpath=//textarea[@id='observaciones']", "xpath:attributes"],
+        ["xpath=//form[@id='form-cuhc']/div[32]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Culo Dilatado"
+    }, {
+      "id": "affa9fd7-16d7-4ae5-b075-c6e0d93382aa",
+      "comment": "",
+      "command": "click",
+      "target": "id=asistido_domicilio_domicilio",
+      "targets": [
+        ["id=asistido_domicilio_domicilio", "id"],
+        ["name=asistido_domicilio[domicilio]", "name"],
+        ["css=#asistido_domicilio_domicilio", "css:finder"],
+        ["xpath=//input[@id='asistido_domicilio_domicilio']", "xpath:attributes"],
+        ["xpath=//form[@id='form-cuhc']/div[33]/div/input", "xpath:idRelative"],
+        ["xpath=//div[33]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9f5871c5-bd12-42dc-9992-563f9fbf841d",
+      "comment": "",
+      "command": "type",
+      "target": "id=asistido_domicilio_domicilio",
+      "targets": [
+        ["id=asistido_domicilio_domicilio", "id"],
+        ["name=asistido_domicilio[domicilio]", "name"],
+        ["css=#asistido_domicilio_domicilio", "css:finder"],
+        ["xpath=//input[@id='asistido_domicilio_domicilio']", "xpath:attributes"],
+        ["xpath=//form[@id='form-cuhc']/div[33]/div/input", "xpath:idRelative"],
+        ["xpath=//div[33]/div/input", "xpath:position"]
+      ],
+      "value": "Sarasa 1000"
+    }, {
+      "id": "e61d833a-b68d-4221-8227-3ac06f529a62",
+      "comment": "",
+      "command": "click",
+      "target": "id=asistido_domicilio_cod_postal",
+      "targets": [
+        ["id=asistido_domicilio_cod_postal", "id"],
+        ["name=asistido_domicilio[cod_postal]", "name"],
+        ["css=#asistido_domicilio_cod_postal", "css:finder"],
+        ["xpath=//input[@id='asistido_domicilio_cod_postal']", "xpath:attributes"],
+        ["xpath=//form[@id='form-cuhc']/div[33]/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[33]/div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8a8b8a9f-9d78-40d3-bd63-fe0fe5bda016",
+      "comment": "",
+      "command": "type",
+      "target": "id=asistido_domicilio_cod_postal",
+      "targets": [
+        ["id=asistido_domicilio_cod_postal", "id"],
+        ["name=asistido_domicilio[cod_postal]", "name"],
+        ["css=#asistido_domicilio_cod_postal", "css:finder"],
+        ["xpath=//input[@id='asistido_domicilio_cod_postal']", "xpath:attributes"],
+        ["xpath=//form[@id='form-cuhc']/div[33]/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[33]/div[3]/input", "xpath:position"]
+      ],
+      "value": "1000"
+    }, {
+      "id": "0662743e-d019-41a2-a2b5-0f950f9d6faa",
+      "comment": "",
+      "command": "select",
+      "target": "id=asistido_domicilio_provincia_iso",
+      "targets": [],
+      "value": "label=Gran Buenos Aires"
+    }, {
+      "id": "efd66a0e-2cb3-4894-92d7-fe2bb05f4072",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "id=asistido_domicilio_provincia_iso",
+      "targets": [
+        ["id=asistido_domicilio_provincia_iso", "id"],
+        ["name=asistido_domicilio[provincia_iso]", "name"],
+        ["css=#asistido_domicilio_provincia_iso", "css:finder"],
+        ["xpath=//select[@id='asistido_domicilio_provincia_iso']", "xpath:attributes"],
+        ["xpath=//form[@id='form-cuhc']/div[33]/div[4]/select", "xpath:idRelative"],
+        ["xpath=//div[33]/div[4]/select", "xpath:position"]
+      ],
+      "value": "-122.5,-476"
+    }, {
+      "id": "60c6eab9-52d9-42e7-863b-e29467f05cde",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "id=asistido_domicilio_provincia_iso",
+      "targets": [
+        ["id=asistido_domicilio_provincia_iso", "id"],
+        ["name=asistido_domicilio[provincia_iso]", "name"],
+        ["css=#asistido_domicilio_provincia_iso", "css:finder"],
+        ["xpath=//select[@id='asistido_domicilio_provincia_iso']", "xpath:attributes"],
+        ["xpath=//form[@id='form-cuhc']/div[33]/div[4]/select", "xpath:idRelative"],
+        ["xpath=//div[33]/div[4]/select", "xpath:position"]
+      ],
+      "value": "-122.5,-476"
+    }, {
+      "id": "35e5573b-058a-4526-8a8d-2fe23ae339e1",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "id=asistido_domicilio_provincia_iso",
+      "targets": [
+        ["id=asistido_domicilio_provincia_iso", "id"],
+        ["name=asistido_domicilio[provincia_iso]", "name"],
+        ["css=#asistido_domicilio_provincia_iso", "css:finder"],
+        ["xpath=//select[@id='asistido_domicilio_provincia_iso']", "xpath:attributes"],
+        ["xpath=//form[@id='form-cuhc']/div[33]/div[4]/select", "xpath:idRelative"],
+        ["xpath=//div[33]/div[4]/select", "xpath:position"]
+      ],
+      "value": "-122.5,-476"
+    }, {
+      "id": "5a5669c7-61bb-4f50-88d5-de862d2ef91e",
+      "comment": "",
+      "command": "click",
+      "target": "id=asistido_domicilio_provincia_iso",
+      "targets": [
+        ["id=asistido_domicilio_provincia_iso", "id"],
+        ["name=asistido_domicilio[provincia_iso]", "name"],
+        ["css=#asistido_domicilio_provincia_iso", "css:finder"],
+        ["xpath=//select[@id='asistido_domicilio_provincia_iso']", "xpath:attributes"],
+        ["xpath=//form[@id='form-cuhc']/div[33]/div[4]/select", "xpath:idRelative"],
+        ["xpath=//div[33]/div[4]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f80e8b07-2197-4e28-a045-b59289ebd496",
+      "comment": "",
+      "command": "click",
+      "target": "id=asistido_domicilio_localidad",
+      "targets": [
+        ["id=asistido_domicilio_localidad", "id"],
+        ["name=asistido_domicilio[localidad]", "name"],
+        ["css=#asistido_domicilio_localidad", "css:finder"],
+        ["xpath=//input[@id='asistido_domicilio_localidad']", "xpath:attributes"],
+        ["xpath=//form[@id='form-cuhc']/div[33]/div[5]/input", "xpath:idRelative"],
+        ["xpath=//div[33]/div[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "18832df4-741f-462f-8d83-3e18f3d7fa35",
+      "comment": "",
+      "command": "type",
+      "target": "id=asistido_domicilio_localidad",
+      "targets": [
+        ["id=asistido_domicilio_localidad", "id"],
+        ["name=asistido_domicilio[localidad]", "name"],
+        ["css=#asistido_domicilio_localidad", "css:finder"],
+        ["xpath=//input[@id='asistido_domicilio_localidad']", "xpath:attributes"],
+        ["xpath=//form[@id='form-cuhc']/div[33]/div[5]/input", "xpath:idRelative"],
+        ["xpath=//div[33]/div[5]/input", "xpath:position"]
+      ],
+      "value": "el barrio destino"
+    }, {
+      "id": "a66aa9b3-1c53-4004-b62f-f8e2d35d0b36",
+      "comment": "",
+      "command": "click",
+      "target": "id=asistido_franja_horaria_utilizacion",
+      "targets": [
+        ["id=asistido_franja_horaria_utilizacion", "id"],
+        ["name=asistido_franja_horaria_utilizacion", "name"],
+        ["css=#asistido_franja_horaria_utilizacion", "css:finder"],
+        ["xpath=//input[@id='asistido_franja_horaria_utilizacion']", "xpath:attributes"],
+        ["xpath=//form[@id='form-cuhc']/div[34]/input", "xpath:idRelative"],
+        ["xpath=//div[34]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "093e44c3-d2cf-42a1-92e2-f9d52c964c75",
+      "comment": "",
+      "command": "type",
+      "target": "id=asistido_franja_horaria_utilizacion",
+      "targets": [
+        ["id=asistido_franja_horaria_utilizacion", "id"],
+        ["name=asistido_franja_horaria_utilizacion", "name"],
+        ["css=#asistido_franja_horaria_utilizacion", "css:finder"],
+        ["xpath=//input[@id='asistido_franja_horaria_utilizacion']", "xpath:attributes"],
+        ["xpath=//form[@id='form-cuhc']/div[34]/input", "xpath:idRelative"],
+        ["xpath=//div[34]/input", "xpath:position"]
+      ],
+      "value": "7 a 19"
+    }, {
+      "id": "a2d716d7-e803-425f-b25b-c2683447504b",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "c2b8b340-be9f-4bfb-90e8-97e88d3a62d4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.recaptcha-checkbox-border",
+      "targets": [
+        ["css=.recaptcha-checkbox-border", "css:finder"],
+        ["xpath=//span[@id='recaptcha-anchor']/div", "xpath:idRelative"],
+        ["xpath=//span/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "27eb2cc9-a14b-462e-9005-52956afbe47f",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "b7e94724-0fc4-4f1b-a169-b0f0c93167fa",
+      "comment": "",
+      "command": "click",
+      "target": "id=btn-solicitar-certificado",
+      "targets": [
+        ["id=btn-solicitar-certificado", "id"],
+        ["css=#btn-solicitar-certificado", "css:finder"],
+        ["xpath=//button[@id='btn-solicitar-certificado']", "xpath:attributes"],
+        ["xpath=//form[@id='form-cuhc']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'SOLICITAR CERTIFICADO')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a3630288-a0d7-413b-8600-1e85b927bffe",
+      "comment": "",
+      "command": "click",
+      "target": "css=.alert-success > .alert-heading",
+      "targets": [
+        ["css=.alert-success > .alert-heading", "css:finder"],
+        ["xpath=//div[@id='main-content']/div/h4", "xpath:idRelative"],
+        ["xpath=//h4", "xpath:position"],
+        ["xpath=//h4[contains(.,'Estimada/o ciudadana/o, hemos registrado tu solicitud correctamente.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2e5059e1-49f1-4d15-8e2c-937f071744fc",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.alert-success > .alert-heading",
+      "targets": [
+        ["css=.alert-success > .alert-heading", "css:finder"],
+        ["xpath=//div[@id='main-content']/div/h4", "xpath:idRelative"],
+        ["xpath=//h4", "xpath:position"],
+        ["xpath=//h4[contains(.,'Estimada/o ciudadana/o, hemos registrado tu solicitud correctamente.')]", "xpath:innerText"]
+      ],
+      "value": "Estimada/o ciudadana/o, hemos registrado tu solicitud correctamente."
+    }]
+  }],
+  "suites": [{
+    "id": "be616622-fda1-407a-a2e9-3b766932d70e",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["ccaa8ac9-0473-44d3-9236-c0deed7942d9"]
+  }],
+  "urls": ["https://www.argentina.gob.ar/"],
+  "plugins": []
+}
